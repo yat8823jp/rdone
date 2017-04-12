@@ -34,6 +34,7 @@
 		ga('send', 'pageview');
 	</script>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<title><?php bloginfo( 'name' ); ?></title>
 	<?php wp_head(); ?>
 </head>
 <body id="pagetop" <?php body_class( 'index' ); ?>>
