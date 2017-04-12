@@ -226,7 +226,7 @@
       <div class="content">
         <p class="sec-copy">デザイン、ホームページ制作等お仕事のご相談など、お気軽にお問い合わせください。 <span class="attention">（* は必須項目です）</span></p>
         <div class="contact-form">
-          <?php echo do_shortcode( '[mwform_formkey key="4"]' ); ?>
+          <?php echo do_shortcode( '[mwform_formkey key="5"]' ); ?>
         </div>
       </div><!--/content-->
 　  </div>
