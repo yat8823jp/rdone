@@ -230,7 +230,6 @@
         </div>
       </div><!--/content-->
 　  </div>
-
     <div class="privacy-box">
       <dl class="privacy">
         <dt><h2>プライバシー</h2></dt>
