@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/*
+Theme Name: rdone
+Theme URI:
+Author: YAT
+Author URI: http://rish-design.com/
+Description: responsive cool grid theme
+Version: 0.0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: rdone
+Tags: one-column
+*/
+
+// ==========================================================================
+// Foundation
+// ==========================================================================
+@import "foundation/_variable";
+@import "foundation/_mixin";
+@import "foundation/_base";
+@import "_main";
