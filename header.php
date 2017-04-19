@@ -3,7 +3,23 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-	<meta name="description" content="<?php bloginfo( 'description' ); ?>">
+	<meta name="description" content="<?php echo COMMON_PFIX; ?>/img/meta/ogp.jpg">
+	<meta property="og:locale" content="ja_JP">
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="<?php bloginfo('name'); ?>">
+	<meta property="og:image" content="<?php echo wp_upload_dir( "baseurl" ); ?>/2017/04/ogp.jpg">
+	<?php if (is_home() || is_front_page()) :?>
+	<meta property="og:title" content="<?php bloginfo('name'); ?>">
+	<?php else: ?>
+	<meta property="og:title" content="<?php the_title(); ?>">
+	<?php endif ;?>
+	<?php if (is_home() || is_front_page()) :?>
+	<meta property="og:url" content="<?php bloginfo('url'); ?>">
+	<?php else: ?>
+	<meta property="og:url" content="<?php the_permalink() ?>">
+	<?php endif ;?>
+	<meta property="og:description" content="<?php bloginfo('description'); ?>">
+
 	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="<?php echo COMMON_PFIX; ?>/img/ico/favicons/favicon.ico">
 	<link rel="icon" type="image/vnd.microsoft.icon" href="<?php echo COMMON_PFIX; ?>/img/ico/favicons/favicon.ico">
 	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo COMMON_PFIX; ?>/img/ico/favicons/apple-touch-icon-57x57.png">
