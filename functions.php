@@ -1,10 +1,14 @@
 <?php
-//====================================================================================
-//初期設定
-//====================================================================================
+/**
+ * theme support
+ */
+ add_theme_support( 'post-thumbnails' );
 
+/**
+ * init
+ */
 	if ( ! isset( $content_width ) ) :
-		$content_width = 1280;
+		$content_width = 1200;
 	endif;
 
 	$theme         = wp_get_theme();
@@ -23,6 +27,17 @@
 		wp_enqueue_script( 'toggle', get_template_directory_uri() . '/js/toggle.js', array( 'jquery' ), $theme_version, true );
 	}
 	add_action( 'wp_enqueue_scripts', 'readScript' );
+
+/**
+ * サムネイルからサイズ削除
+ **/
+	add_filter( 'post_thumbnail_html', 'custom_attribute' );
+	function custom_attribute( $html ){
+	// width height を削除する
+	$html = preg_replace( '/(width|height)="\d*"\s/', '', $html );
+	return $html;
+}
+
 
 //====================================================================================
 // クロスドメイン問題の解決 - for SAKURA Internet

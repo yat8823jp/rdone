@@ -6,7 +6,7 @@
 .sec2,
 .sec3,
 .sec4,
-.sec5{
+.sec5 {
 	width: 100%;
 	height: auto;
 	min-height: 100%;
@@ -15,30 +15,33 @@
 	font-family: mplus-1p-regular;
 	font-size: 1.6rem;
 
-	@media #{$xs}{
+	@media #{$xs} {
 		width: 100%;
 	}//@media #{$xs}
 
-	@media #{$xs-l}{
+	@media #{$xs-l} {
 		width: 100%;
 	}//@media #{$xs}
 
 
-	.headline{
-		img.logo{
+	.headline {
+		img.logo {
 			width: 694px;
+			@media #{$xs} {
+				width: 350px;
+			}
 		}//img
 
-		@media #{$xs}{
+		@media #{$xs} {
 			margin: auto;
-			img{
-				max-width: 50%;
+			img {
+				// max-width: 50%;
 			}//.img
 		}
 
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			margin: auto;
-			img{
+			img {
 				max-width: 50%;
 			}//.img
 		}
@@ -47,41 +50,41 @@
 
 }
 
-h1.headline{
+h1.headline {
 	padding-top: 80px;
 	text-align: center;
-	@media #{$xs}{
+	@media #{$xs} {
 		padding-top: 50px;
 	}//@media #{$xs}
 }//h1.headline
 
-.content{
+.content {
 	width: 860px;
 	margin: 60px auto 0 auto;
-	@media #{$xs}{
+	@media #{$xs} {
 		width: 100%;
 		margin: 30px auto 0 auto;
 		box-sizing: border-box;
 	}//@media #{$xs}
-	@media #{$xs-l}{
+	@media #{$xs-l} {
 		width: 100%;
 		margin: 30px auto 0 auto;
 		box-sizing: border-box;
 	}//@media #{$xs}
 
 	.sec-text,
-	.sec-copy{
+	.sec-copy {
 		font-size: 1.6rem;
 		line-height: 1.8;
 	}
 
-	.sec-copy{
+	.sec-copy {
 		text-align: center;
-		@media #{$xs}{
+		@media #{$xs} {
 			padding: 0 10px;
 			box-sizing: border-box;
 		}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			padding: 0 10px;
 			box-sizing: border-box;
 		}
@@ -92,7 +95,7 @@ h1.headline{
 //.sec1
 //logo
 //-------------------------------------------------------
-.sec1{
+.sec1 {
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -101,17 +104,17 @@ h1.headline{
 	display: block;
 	z-index: 0;
 
-	@media #{$xs}{
+	@media #{$xs} {
 		height: auto;
 		min-height: 100%;
 	}//@media #{$xs}
 
-	@media #{$xs-l}{
+	@media #{$xs-l} {
 		height: auto;
 		min-height: 100%;
 	}//@media #{$xs}
 
-	video {
+	video  {
 		position: absolute;
 		min-width: 100%;
 		width: 100%;
@@ -119,7 +122,7 @@ h1.headline{
 		height: 80%;
 		top: 10%;
 		z-index: 2;
-		@media #{$lg}{
+		@media #{$lg} {
 			min-width: 100%;
 			width: 100%;
 			min-height: 100%;
@@ -128,54 +131,54 @@ h1.headline{
 		}
 	}
 
-	h1.logo{
+	h1.logo {
 		top: 50%;
 		left: 50%;
 		margin: -96px auto auto -168px;
 		position: absolute;
 		z-index: 3;
 
-		@media #{$xs}{
+		@media #{$xs} {
 			img{ width: (336/2)+px; }
 			margin: (-198/4)+px auto auto (-336/4)+px;
 		}//@media #{$xs}
 
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			img{ width: (336/2)+px; }
 			margin: (-198/4)+px auto auto (-336/4)+px;
 		}//@media #{$xs}
-		&--404 {
+		&--404  {
 			@extend h1.logo;
 			margin: -162px auto auto -230px;
 
-			@media #{$xs}{
+			@media #{$xs} {
 				margin: (-162/2)+px auto auto (-230/2)+px;
 				img { width: (478/2)+px; }
 			}
-			@media #{$xs-l}{
+			@media #{$xs-l} {
 				margin: (-162/2)+px auto auto (-230/2)+px;
 				img { width: (478/2)+px; }
 			}//@media #{$xs}
 		}
 	}//h1.logo
 
-	div.top-arrow-bottom{
+	div.top-arrow-bottom {
 		position: absolute;
 		bottom: 5%;
 		left: 50%;
 		margin: auto auto 0 -15px;
 		z-index: 3;
-		img{
+		img {
 			width: 30px;
 		}
 	}
-	.gotoppage {
+	.gotoppage  {
 		@extend div.top-arrow-bottom;
 		font-size: 1.4rem;
-		@media #{$xs}{
+		@media #{$xs} {
 			margin-left: -60px;
 		}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			margin-left: -60px;
 		}
 	}
@@ -187,84 +190,84 @@ h1.headline{
 //.sec2
 //About
 //-------------------------------------------------------
-.sec2{
+.sec2 {
 	background: url(img/sec2_bg.png);
 	background-size: cover;
 	font-family: 'mplus-2c-thin', sans-serif;
 	font-size: 2.0rem;
 	color: #fff;
 
-	.headline{
-		img.logo{
+	.headline {
+		img.logo {
 			width: 694px;
 
-			@media #{$xs}{
+			@media #{$xs} {
 				width: (694/2)+px;
 			}
-			@media #{$xs-l}{
+			@media #{$xs-l} {
 				width: (694/2)+px;
 			}
 		}//img
 	}//.headline
 
-	.l-img-r-content{
+	.l-img-r-content {
 
 		text-align: center;
 
-			@media #{$xs}{
+			@media #{$xs} {
 				width: 100%;
 				padding: 10px;
 				float: none;
 			}//@media #{$xs}
 
-			@media #{$xs-l}{
+			@media #{$xs-l} {
 				width: 100%;
 				padding: 10px;
 				float: none;
 			}//@media #{$xs}
 
-		.left{
+		.left {
 			text-align: left;
 			float: left;
 			margin-right: 30px;
 
-			@media #{$xs}{
+			@media #{$xs} {
 				margin-right: 0;
 				text-align: center;
 				float: none;
 			}//@media #{$xs}
 
-			@media #{$xs-l}{
+			@media #{$xs-l} {
 				margin-right: 0;
 				text-align: center;
 				float: none;
 			}//@media #{$xs}
 
-			img.photo{
+			img.photo {
 				/* display: none; */
-				@media #{$xs}{
+				@media #{$xs} {
 					width: (318/2)+px;
 				}//@media #{$xs}
-				@media #{$xs-l}{
+				@media #{$xs-l} {
 					width: (318/2)+px;
 				}//@media #{$xs}
 
 			}
-			ul.sns-ico{
+			ul.sns-ico {
 				margin-top: 10px;
 				vertical-align: middle;
-				@media #{$xs}{
+				@media #{$xs} {
 					margin: 20px auto auto auto;
 				}//@media #{$xs}
-				@media #{$xs-l}{
+				@media #{$xs-l} {
 					margin: 20px auto auto auto;
 				}//@media #{$xs}
-				li{
+				li {
 					margin-right: 10px; display: inline;
-					@media #{$xs}{
+					@media #{$xs} {
 						margin: auto 10px;
 					}//@media #{$xs}
-					@media #{$xs-l}{
+					@media #{$xs-l} {
 						margin: auto 10px;
 					}//@media #{$xs}
 				}
@@ -274,15 +277,15 @@ h1.headline{
 
 		}//.left
 
-		.right{
+		.right {
 			text-align: left;
 			overflow: hidden;
-			@media #{$xs}{
+			@media #{$xs} {
 				margin: 10px;
 				text-align: left;
 				clear: both;
 			}//@media #{$xs}
-			@media #{$xs-l}{
+			@media #{$xs-l} {
 				margin: 10px;
 				text-align: left;
 				clear: both;
@@ -290,41 +293,41 @@ h1.headline{
 
 			h2,dt{ font-weight: bold; }
 			h2{ margin-top: 30px; font-size: 1.6rem; line-height: 1.6; }
-			dl{
+			dl {
 				margin-top: 20px;
-				@media #{$xs}{
+				@media #{$xs} {
 					width: 100%;
 					// padding: 10px;
 				}//@media #{$xs}
-				@media #{$xs-l}{
+				@media #{$xs-l} {
 					width: 100%;
 					// padding: 10px;
 				}//@media #{$xs}
 
-				dt{
+				dt {
 					margin: 10px 0; font-size: 1.6rem; line-height: 1.6;
-					@media #{$xs}{
+					@media #{$xs} {
 						margin: 10px 10px 0 0;
 					}//@media #{$xs}
-					@media #{$xs-l}{
+					@media #{$xs-l} {
 						margin: 10px 10px 0 0;
 					}//@media #{$xs}
 				}
-				dd{
+				dd {
 					display: inline; font-size: 1.6rem; line-height: 1.6;
-					@media #{$xs}{
+					@media #{$xs} {
 						// width: 100%;
 					}//@media #{$xs}
-					@media #{$xs-l}{
+					@media #{$xs-l} {
 						// width: 100%;
 					}//@media #{$xs}
 				}//dd
-				dt+dd{
+				dt+dd {
 					margin-left: 15px;
-					@media #{$xs}{
+					@media #{$xs} {
 						margin-left: 0;
 					}//@media #{$xs}
-					@media #{$xs-l}{
+					@media #{$xs-l} {
 						margin-left: 0;
 					}//@media #{$xs}
 				}
@@ -338,10 +341,10 @@ h1.headline{
 //.sec3
 //Price list
 //-------------------------------------------------------
-.sec3{
+.sec3 {
 	background: url(img/sec3_bg.png);
 
-	h2.sec3-h2{
+	h2.sec3-h2 {
 		margin-top: 60px;
 		padding: 24px 0 24px 24px;
 		font-size: 2.0rem;
@@ -350,14 +353,14 @@ h1.headline{
 		color: #720000;
 		border-top: 2px solid #720000;
 		border-bottom: 2px solid #720000;
-		@media #{$xs}{
+		@media #{$xs} {
 			margin: 30px 10px auto 10px;
 			padding: 12px;
 			box-sizing: border-box;
 			line-height: 1.2;
 			text-align: left;
 		}//@media #{$xs}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			margin: 30px 10px auto 10px;
 			padding: 12px;
 			box-sizing: border-box;
@@ -366,19 +369,19 @@ h1.headline{
 		}//@media #{$xs}
 	}//.sec3-h2
 
-	table.price-table{
+	table.price-table {
 		width:690px;
 		margin: 20px auto auto auto;
 		position: relative;
-		tr{
-			td.price-headline{
+		tr {
+			td.price-headline {
 				font-size: 1.8rem;
 				line-height: 1.8;
 				color: #720000;
 				border: none;
 				border-bottom: 2px solid #720000;
 			}//td
-			td{
+			td {
 				font-size: 1.6rem;
 				line-height: 1.6;
 				padding: 20px;
@@ -388,27 +391,27 @@ h1.headline{
 			}
 		}//tr
 
-		@media #{$xs}{
+		@media #{$xs} {
 			width: 100%;
 			padding: 0 10px;
 			box-sizing: border-box;
 			display: block;
 
-			tbody{
+			tbody {
 				width: 100%;
 				display: block;
 				border-bottom: 1px solid #720000;
 
-				tr{
+				tr {
 					width: 100%;
 					display: block;
-					td{
+					td {
 						width: 100%;
 						box-sizing: border-box;
 						display: none;
 						border: none;
 					}//td
-					td[data-price="title"]{
+					td[data-price="title"] {
 						height: auto;
 						padding: 10px;
 						color: #fff;
@@ -417,7 +420,7 @@ h1.headline{
 						border: 1px solid #fff;
 						border-bottom: 1px solid #fff;
 					}
-					td[data-price="subtitle"]{
+					td[data-price="subtitle"] {
 						height: auto;
 						padding: 10px;
 						color: #fff;
@@ -428,7 +431,7 @@ h1.headline{
 						border-bottom: 1px dotted #fff;
 						display: block;
 					}
-					td[data-price="item"]{
+					td[data-price="item"] {
 						height: auto;
 						padding: 10px;
 						color: #fff;
@@ -439,7 +442,7 @@ h1.headline{
 						border-bottom: none;
 						display: block;
 					}
-					td[data-price="price"]{
+					td[data-price="price"] {
 						height: auto;
 						padding: 10px;
 						color: #fff;
@@ -453,27 +456,27 @@ h1.headline{
 			}//tbody
 		}//@media #{$xs}
 
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			width: 100%;
 			padding: 0 10px;
 			box-sizing: border-box;
 			display: block;
 
-			tbody{
+			tbody {
 				width: 100%;
 				display: block;
 				border-bottom: 1px solid #720000;
 
-				tr{
+				tr {
 					width: 100%;
 					display: block;
-					td{
+					td {
 						width: 100%;
 						box-sizing: border-box;
 						display: none;
 						border: none;
 					}//td
-					td[data-price="title"]{
+					td[data-price="title"] {
 						height: auto;
 						padding: 10px;
 						color: #fff;
@@ -482,7 +485,7 @@ h1.headline{
 						border: 1px solid #fff;
 						border-bottom: 1px solid #fff;
 					}
-					td[data-price="subtitle"]{
+					td[data-price="subtitle"] {
 						height: auto;
 						padding: 10px;
 						color: #fff;
@@ -493,7 +496,7 @@ h1.headline{
 						border-bottom: 1px dotted #fff;
 						display: block;
 					}
-					td[data-price="item"]{
+					td[data-price="item"] {
 						height: auto;
 						padding: 10px;
 						color: #fff;
@@ -504,7 +507,7 @@ h1.headline{
 						border-bottom: none;
 						display: block;
 					}
-					td[data-price="price"]{
+					td[data-price="price"] {
 						height: auto;
 						padding: 10px;
 						color: #fff;
@@ -526,7 +529,7 @@ h1.headline{
 //.sec4
 //Portfolio
 //-------------------------------------------------------
-@mixin portfolio-comment{
+@mixin portfolio-comment {
 	width: 274px;
 	height: auto;
 	padding: 20px;
@@ -538,7 +541,7 @@ h1.headline{
 	dd{ padding: 20px; background: #fff; color: #333; font-size: 1.4rem; line-height: 1.5; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; box-sizing: border-box; }
 
 }//portfolio-comment
-@mixin portfolio-comment-xs{
+@mixin portfolio-comment-xs {
 	width: 200px;
 	height: auto;
 	padding: 20px;
@@ -550,7 +553,7 @@ h1.headline{
 	dd{ padding: 20px; background: #fff; color: #333; font-size: 1.4rem; line-height: 1.5; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; box-sizing: border-box; }
 
 }//portfolio-comment
-@mixin portfolio-comment-xs-l{
+@mixin portfolio-comment-xs-l {
 	width: 200px;
 	height: auto;
 	padding: 20px;
@@ -564,72 +567,107 @@ h1.headline{
 }//portfolio-comment
 
 
-.sec4{
+.sec4 {
 	width: 100%;
 	background: url(img/sec4_bg.png);
 	font-size: 1.6rem;
 
-	.portfolio-main{
+	.portfolio-main {
 		width: 100%;
 		margin-top: 60px;
+		text-align: center;
 		&:after{ @include clearfix; }
-		@media #{$xs}{
+		@media #{$xs} {
 			width: 100%;
 			margin-top: 30px;
 		}//@media #{$xs}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			width: 100%;
 			margin-top: 30px;
 		}//@media #{$xs}
 
-		.portfolio-main-1{
+		.portfolio-main-1 {
 			float: left;
-			@media #{$xs}{
+			@media #{$xs} {
+				padding-bottom: 50px;
 				float: none;
 			}//@media #{$xs}
-			@media #{$xs-l}{
+			@media #{$xs-l} {
 				float: none;
 			}//@media #{$xs}
 		}
-		.portfolio-main-2{
+		.portfolio-main-2 {
 			margin-top: 120px;
 			float: right;
-			@media #{$xs}{
+			@media #{$xs} {
 				margin-top: 40px;
 				float: none;
 			}//@media #{$xs}
-			@media #{$xs-l}{
+			@media #{$xs-l} {
 				margin-top: 40px;
 				float: none;
 			}//@media #{$xs}
 		}//.portfolio-main-2
 
 		.portfolio-main-1,
-		.portfolio-main-2{
-			// width: 396px;
-			@media #{$xs}{
-				width: 100%;
-				text-align: center;
-			}//@media #{$xs}
-			@media #{$xs-l}{
-				width: 100%;
-				text-align: center;
-			}//@media #{$xs}
-			img{
-				width: 396px;
-				margin: auto;
-				@media #{$xs}{
-					width: (396/2)+px;
-				}//@media #{$xs}
-				@media #{$xs-l}{
-					width: (396/2)+px;
-				}//@media #{$xs}
+		.portfolio-main-2 {
+			overflow: hidden;
+			.image {
+				@media #{$xs} {
+				}
+				@media #{$sm} {
+					margin: auto;
+				}
+				@media #{$md} {
+					margin: auto;
+				}
+				.portfolio-frame {
+					margin: 48px 0;
+					position: relative;
+					display: block;
+					@media #{$xs} {
+					}
+					@media #{$sm} {
+					}
+					&:before {
+						content: "";
+						width: calc( 100% + 96px );
+						height: calc( 100% + 96px );
+						background: url( img/post/portfolio_main_frame.png ) no-repeat;
+						background-size: contain;
+						position: absolute;
+						top: -48px;
+						left: -48px;
+						z-index: 2;
+						display: block;
+						@media #{$xs} {
+							width: calc( 100% + 48px );
+							height: calc( 100% + 80px );
+							top: -40px;
+							left: calc( 50% - 200px );
+						}
+						@media #{$sm} {
+						}
+					}
+					img {
+						min-width: 320px;
+						width: 100%;
+						margin: auto;
+						top: 0;
+						left: 0;
+						z-index: 0;
+						@media #{$xs} {
+							width: auto;
+							// width: 70%;
+						}
+					}
+				}
 			}
 		}
 
-		dl.comment{
+		dl.comment {
 			// width: 274px;
-			dt{
+			dt {
 				// width: 274px;
 				background: url(img/portfolio/portfolio-main-comment-bg.png) repeat-y;
 			}
@@ -638,46 +676,83 @@ h1.headline{
 
 	}//.portfolio-main
 
-	.portfolio-sub{
+	.portfolio-sub {
 		width: 860px;
 		margin: 60px;
 		display: inline-block;
 		&:after{ @include clearfix; }
-		@media #{$xs}{
+		@media #{$xs} {
 			width: 100%;
 			margin: 0;
 		}//@media #{$xs}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			width: 100%;
 			margin: 0;
 		}//@media #{$xs}
 
-		.portfolio-sub-item{
-			width: 200px;
+		.portfolio-sub-item {
+			// width: 200px;
+			// width: 180px;
 			text-align: center;
-			img{
-				margin: auto;
+			@media #{$xs} {
+				// width: 180px !important;
 			}
-			@media #{$xs}{
-				width: 160px;
-				margin-top: 30px;
-				text-align: center;
-				img{
-					width: 160px;
-					margin: auto;
+			@media #{$xs-l} {
+			}
+			.image {
+				.portfolio-frame {
+					margin: 48px 0;
+					position: relative;
+					display: block;
+					&:before {
+						content: "";
+						width: calc( 100% + 24px );
+						height: calc( 100% + 24px );
+						background: url( img/post/portfolio_sub_frame.png ) no-repeat;
+						background-size: contain;
+						position: absolute;
+						top: -14px;
+						left: 42px;
+						z-index: 2;
+						display: block;
+						@media #{$sm} {
+							left: 10px;
+						}
+						@media #{$xs} {
+							width: calc( 100% + 24px );
+							height: calc( 100% + 24px );
+							top: -14px;
+							left: -10px;
+						}
+					}
+					img {
+						width: 180px;
+						height: auto;
+						margin: auto;
+					}
+					@media #{$xs} {
+						width: 140px;
+						margin: 30px auto;
+						text-align: center;
+						img {
+							width: 100%;
+							// width: 146px;
+							margin: auto;
+						}
+					}//@media #{$xs}
+					@media #{$xs-l} {
+						margin-top: 30px;
+						text-align: center;
+						img {
+							// width: 200px;
+							margin: auto;
+						}
+					}//@media #{$xs}
 				}
-			}//@media #{$xs}
-			@media #{$xs-l}{
-				margin-top: 30px;
-				text-align: center;
-				img{
-					width: 200px;
-					margin: auto;
-				}
-			}//@media #{$xs}
+			}
 		}//.portfolio-sub-item
 
-		dl.comment{
+		dl.comment {
 			dt{ width: 195px; background: url(img/portfolio/portfolio-sub-comment-bg.png) repeat-y; }
 			@include portfolio-comment;
 			@media #{$xs}  { @include portfolio-comment-xs; }
@@ -693,76 +768,103 @@ h1.headline{
 //.sec5
 //contact
 //-------------------------------------------------------
-.sec5{
+.sec5 {
 	background: url(img/sec5_bg.jpg);
 	color: $gold-color;
 	font-size: 1.6rem;
-	@media #{$xs}{
+	@media #{$xs} {
 		width: 100%;
 		padding-left: 10px;
 		padding-right: 10px;
 		box-sizing: border-box;
 	}//@media #{$xs}
-	@media #{$xs-l}{
+	@media #{$xs-l} {
 		width: 100%;
 		padding-left: 10px;
 		padding-right: 10px;
 		box-sizing: border-box;
 	}//@media #{$xs}
-	.attention{
+	.attention {
 		font-size: 1.2rem;
 	}
 
 	.content,
 	.content2,
-	.content3{
+	.content3 {
 		// width: 535px;
 	}
 
-	.content2{
+	.content2 {
 		// height: 535px;
 	}
 
-	dl.form-block{
+	dl.form-block {
 
 		display: inline-block;
 
-		dt{
+		dt {
 			width: 180px;
 			text-align: right;
 			margin: 0 20px 30px auto;
 			float: left;
 			clear: left;
-			@media #{$xs}{
+			@media #{$xs} {
 				width: 100%;
 				margin-bottom: 10px;
 				text-align: center;
 			}
 		}//dt
 
-		dd{
+		dd {
 			width: 380px;
 			margin: 0 0 30px 0;
 			text-align: left;
 			word-break:break-all;
 			float: left;
-				@media #{$xs}{
+				@media #{$xs} {
 					width: 100%;
 				}//@media #{$xs}
 
 			input,
 			select,
-			textarea{
+			textarea {
 				width: 380px;
-				@media #{$xs}{
+				padding: 5px;
+				box-sizing: border-box;
+				@media #{$xs} {
 					width: 100%;
 				}//@media #{$xs}
+			}
+			.type-select-label {
+				position: relative;
+				&::after {
+					content: "";
+					width: 0;
+					height: 0;
+					border: 6px solid transparent;
+					border-top: 6px solid #444;
+					display: inline-block;
+					top: 9px;
+					right: 8px;
+					position: absolute;
+					z-index: 2;
+				}
+			}
+			select.type-select {
+				padding: 5px 0 8px;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+				background: #eeeeee; /* Old browsers */
+				background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+				z-index: 1;
 			}
 		}
 
 	}//dl.form-block
 
-	.contact-form{
+	.contact-form {
 		margin: 60px auto auto auto;
 		text-align: center;
 		display: block;
@@ -771,7 +873,7 @@ h1.headline{
 
 	.check-bt,
 	.submit-bt,
-	.reset-bt{
+	.reset-bt {
 		width: 288px;
 		height: 88px;
 		padding: 0;
@@ -782,56 +884,56 @@ h1.headline{
 		border-style: none;
 		font-size: 0;
 		display: block;
-		@media #{$xs}{
+		@media #{$xs} {
 			margin-top: 20px;
 		}//@media #{$xs}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			margin-top: 20px;
 		}//@media #{$xs}
 	}//.submit-bt
 
-	.set-bt {
+	.set-bt  {
     width: 280px;
     margin: auto;
-		@media #{$sm} {
+		@media #{$sm}  {
 			width: 960px;
 		}
-		@media #{$md} {
+		@media #{$md}  {
 			width: 960px;
 		}
-		@media #{$lg} {
+		@media #{$lg}  {
 			width: 960px;
 		}
 	}
 
-	.set-bt{
+	.set-bt {
 		&:after{ @include clearfix; }
 	}
 
-	.check-bt{
+	.check-bt {
 		background: url(img/check_bt.png) no-repeat;
-		&:hover{
+		&:hover {
 			background: url(img/check_bt_over.png) no-repeat;
 		}
 	}//.check-bt
 
-	.submit-bt{
+	.submit-bt {
 		background: url(img/submit_bt.png) no-repeat;
 		display: inline;
-		&:hover{
+		&:hover {
 			background: url(img/submit_bt_over.png) no-repeat;
 		}
 	}//.submit-bt
 
-	.reset-bt{
+	.reset-bt {
 		background: url(img/reset_bt.png) no-repeat;
 		display: inline;
-		&:hover{
+		&:hover {
 			background: url(img/reset_bt_over.png) no-repeat;
 		}
 	}//.submit-bt
 
-	.privacy-box{
+	.privacy-box {
 		width: 860px;
 		margin: 80px auto auto auto;
 		padding: 25px;
@@ -839,14 +941,14 @@ h1.headline{
 		border: 1px solid #fffac6;
 		color: #fff;
 		font-family: 'mplus-2c-thin', sans-serif;
-		@media #{$xs}{
+		@media #{$xs} {
 			width: 100%;
 			margin-top: 40px;
 			padding: 10px;
 			box-sizing: border-box;
 			text-align: left;
 		}//@media #{$xs}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			width: 100%;
 			margin-top: 40px;
 			padding: 10px;
@@ -854,16 +956,16 @@ h1.headline{
 			text-align: left;
 		}//@media #{$xs}
 
-		.toggle-bt{
-			margin: 40px auto 0 auto;
+		.toggle-bt {
+			margin: 40px auto 20px auto;
 			text-align: center;
 		}
 
-		.toggle-bt.active img{
+		.toggle-bt.active img {
 			display: none;
 		}
 
-		.toggle-bt.active a{
+		.toggle-bt.active a {
 			width: 165px;
 			height: 46px;
 			margin: auto;
@@ -871,32 +973,34 @@ h1.headline{
 			display: block;
 		}
 
-		.privacy-hidden{
+		.privacy-hidden {
 			display: none;
 		}
 
-		.privacy-hidden.active{
+		.privacy-hidden.active {
 			display: block;
 		}
-
-		dt{
-			line-height: 1.6; margin-bottom: 18px;
+		dt {
+			line-height: 1.6;
+			margin-bottom: 18px;
 			font-weight: bold;
-			h2{ font-size: 2.0rem; }
-			h3{ margin-top: 18px; font-size: 1.8rem; }
+			&.privacy__ttl--big{ font-size: 2.0rem; }
+			&.privacy__ttl--small{ margin-top: 18px; font-size: 1.8rem; }
 		}//dt
-		dd{
-			font-size: 1.4rem; line-height: 1.6;
-			ul{
+		dd {
+			margin-bottom: 30px;
+			font-size: 1.4rem;
+			line-height: 1.6;
+			ul {
 				margin: 10px 0 0 40px;
-				@media #{$xs}{
+				@media #{$xs} {
 					margin-left: 30px;
 				}//@media #{$xs}
-				@media #{$xs-l}{
+				@media #{$xs-l} {
 					margin-left: 30px;
 				}//@media #{$xs}
 
-				li{
+				li {
 					margin-bottom: 5px;
 					list-style-type: disc;
 				}
@@ -908,7 +1012,7 @@ h1.headline{
 //-------------------------------------------------------
 //footer
 //-------------------------------------------------------
-footer{
+footer {
 	width: 100%;
 	height: 260px;
 	background: url(img/sec1_bg.png);
@@ -916,78 +1020,78 @@ footer{
 	font-size: 1.6rem;
 	bottom: 0;
 	position: relative;
-	ul.ft-menu{
+	ul.ft-menu {
 		width: 530px;
 		top: 20px;
 		left: 50%;
 		position: absolute;
 		margin-left: -250px;
-		li{
+		li {
 			display: inline; vertical-align: middle; font-family: mplus-2c-medium;
 			padding: 0 20px;
 			border-right: 1px solid $gold-color;
 			&:first-child{ @include beforeafter; border-left: 1px solid $gold-color; display: inline; }
 		}//li
-		a{
+		a {
 			&:link,&visited{ color: $gold-color; }
 			&:hover{ color: $gold-color-hover; }
 		}//a
 
-		@media #{$xs}{
+		@media #{$xs} {
 			width: 100%;
 			margin: auto;
 			padding: 0 10px;
 			left: 0;
 			text-align: center;
 			box-sizing: border-box;
-			li{
+			li {
 				line-height: 2.0;
 			}//li
 		}//@media #{$xs}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			width: 100%;
 			margin: auto;
 			padding: 0 10px;
 			left: 0;
 			text-align: center;
 			box-sizing: border-box;
-			li{
+			li {
 				line-height: 2.0;
 			}//li
 		}//@media #{$xs}
 
 	}
-	h1.logo{
+	h1.logo {
 		top: 80px;
 		left: 50%;
 		margin: 0 auto auto -138px;
 		position: absolute;
-		img{
+		img {
 			width: 276px;
 		}
-		@media #{$xs}{
+		@media #{$xs} {
 			width: 100%;
 			top: 50%;
 			left: 0;
 			margin: auto;
 			text-align: center;
-			img{
+			img {
 				width: (276/2)+px;
 			}
 		}//@media #{$xs}
-		@media #{$xs-l}{
+		@media #{$xs-l} {
 			width: 100%;
 			top: 50%;
 			left: 0;
 			margin: auto;
 			text-align: center;
-			img{
+			img {
 				width: (276/2)+px;
 			}
 		}//@media #{$xs}
 	}//h1.logo
 
-	address.copyright{
+	address.copyright {
 		width: 220px;
 		margin-left: -110px;
 		top: 230px;
@@ -1000,14 +1104,14 @@ footer{
 //-------------------------------------------------------
 //Boxer reset
 //-------------------------------------------------------
-	#post-data{
+	#post-data {
 		display: none;
 	}
-	.inline_content{
+	.inline_content  {
 	  width: 100%;
 		overflow: hidden;
 		font-size: 2.0rem !important;
 	}//.inline_content
-	#boxer.inline {
+	#boxer.inline  {
 	  font-size: 1.4rem;
 	}
