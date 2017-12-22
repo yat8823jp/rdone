@@ -154,7 +154,7 @@
 											<?php endif; ?>
 									</div>
 									<dl class="comment">
-										<dt><?php the_title(); ?> 様</dt>
+										<dt><?php the_title(); ?></dt>
 										<dd>
 											<?php
 												if( $tags ) {
