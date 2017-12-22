@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="sec2" id="sec2">
-	<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec2_headline.png" alt="About" class="logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_about.png"></h2>
+	<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec2_headline.png" alt="About" class="headline-logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_about.png"></h2>
 	<div class="l-img-r-content content">
 		<div class="left">
 			<img src="<?php echo COMMON_PFIX; ?>/img/photo.jpg" alt="photo" class="photo">
@@ -14,7 +14,7 @@
 				2015年6月29日より個人事業として独立し、大阪府八尾市にて、フリーランスのWebクリエイターとして活動しています。<br>
 				これまでの経験を活かし、ホームページを作って終わるのではなく、作ったサイトをどのように活用し、どのように目的を達成していくのかまで一緒に考えることができますので、今あるホームページをどうやって運用すればいいのか？といったお悩みをお抱えのサイトオーナー様からも、お気軽にご相談いただければと思います。
 			</p>
-			<h2>業務内容</h2>
+			<h3 class="sec2-ttl">業務内容</h3>
 			<dl>
 				<dt>Webサイト制作</dt>
 				<dd>Webデザイン / </dd>
@@ -33,14 +33,14 @@
 	</section><!--/.sec2-->
 
 	<section class="sec3" id="sec3">
-		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec3_headline.png" alt="Pricelist" width="752" height="" class="logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_pricelist.png"></h2>
+		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec3_headline.png" alt="Pricelist" width="752" height="" class="headline-logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_pricelist.png"></h2>
 		<div class="content">
 			<p class="sec-copy">基本的な料金は下記となります。ご不明な点、こちらで該当しない点等、ご相談がありましたら、お気軽にお問い合わせください。</p>
-			<h2 class="sec3-h2" data-price="headline">Webデザイン・ホームページ作成</h2>
+			<h3 class="sec3-ttl" data-price="headline">Webデザイン・ホームページ作成</h3>
 			<table class="price-table">
 				<tbody>
 					<tr>
-						<td colspan="3" class="price-headline" data-price="title"><h3>PC用サイト・スマートフォンサイト</h3></td>
+						<td colspan="3" class="price-headline" data-price="title"><h4>PC用サイト・スマートフォンサイト</h4></td>
 					</tr>
 					<tr>
 						<td data-price="subtitle">デザイン</td>
@@ -80,11 +80,11 @@
 				</tbody>
 			</table>
 
-			<h2 class="sec3-h2" data-price="headline">デザイン全般</h2>
+			<h2 class="sec3-ttl" data-price="headline">デザイン全般</h2>
 			<table class="price-table">
 				<tbody>
 					<tr>
-						<td colspan="3" class="price-headline" data-price="title"><h3>印刷物等</h3></td>
+						<td colspan="3" class="price-headline" data-price="title"><h4>印刷物等</h4></td>
 					</tr>
 					<tr>
 						<td data-price="subtitle">ロゴデザイン</td>
@@ -106,7 +106,7 @@
 		</div><!--/content-->
 	</section><!--/.sec3-->
 	<section class="sec4" id="sec4">
-		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec4_headline.png" alt="Portfolio" width="752" height="" class="logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_portfolio.png"></h2>
+		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec4_headline.png" alt="Portfolio" width="752" height="" class="headline-logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_portfolio.png"></h2>
 		<div class="content">
 			<p class="sec-copy">過去の制作実績です</p>
 			<?php
@@ -185,7 +185,7 @@
 		?>
 	</section><!--/.sec4-->
 	<section class="sec5" id="sec5">
-		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec5_headline.png" alt="contact" class="logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_contact.png"></h2>
+		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec5_headline.png" alt="contact" class="headline-logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_contact.png"></h2>
 		<div class="check-form-slide">
 			<div class="content">
 				<p class="sec-copy">デザイン、ホームページ制作等お仕事のご相談など、お気軽にお問い合わせください。 <span class="attention">（* は必須項目です）</span></p>

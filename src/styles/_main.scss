@@ -25,7 +25,7 @@
 
 
 	.headline {
-		img.logo {
+		img.headline-logo {
 			width: 694px;
 			@media #{$xs} {
 				width: 350px;
@@ -50,13 +50,13 @@
 
 }
 
-h1.headline {
+.headline {
 	padding-top: 80px;
 	text-align: center;
 	@media #{$xs} {
 		padding-top: 50px;
 	}//@media #{$xs}
-}//h1.headline
+}//.headline
 
 .content {
 	width: 860px;
@@ -131,7 +131,7 @@ h1.headline {
 		}
 	}
 
-	h1.logo {
+	.logo {
 		top: 50%;
 		left: 50%;
 		margin: -96px auto auto -168px;
@@ -148,7 +148,7 @@ h1.headline {
 			margin: (-198/4)+px auto auto (-336/4)+px;
 		}//@media #{$xs}
 		&--404  {
-			@extend h1.logo;
+			@extend .logo;
 			margin: -162px auto auto -230px;
 
 			@media #{$xs} {
@@ -291,8 +291,8 @@ h1.headline {
 				clear: both;
 			}//@media #{$xs}
 
-			h2,dt{ font-weight: bold; }
-			h2{ margin-top: 30px; font-size: 1.6rem; line-height: 1.6; }
+			.sec2-ttl,dt{ font-weight: bold; }
+			.sec2-ttl{ margin-top: 30px; font-size: 1.6rem; line-height: 1.6; }
 			dl {
 				margin-top: 20px;
 				@media #{$xs} {
@@ -344,7 +344,7 @@ h1.headline {
 .sec3 {
 	background: url(img/sec3_bg.png);
 
-	h2.sec3-h2 {
+	.sec3-ttl {
 		margin-top: 60px;
 		padding: 24px 0 24px 24px;
 		font-size: 2.0rem;
@@ -611,7 +611,9 @@ h1.headline {
 
 		.portfolio-main-1,
 		.portfolio-main-2 {
-			overflow: hidden;
+			@media #{$xs} {
+				overflow: hidden;
+			}
 			.image {
 				@media #{$xs} {
 				}
@@ -1061,7 +1063,7 @@ footer {
 		}//@media #{$xs}
 
 	}
-	h1.logo {
+	.logo {
 		top: 80px;
 		left: 50%;
 		margin: 0 auto auto -138px;
