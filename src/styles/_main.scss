@@ -718,7 +718,7 @@
 						z-index: 2;
 						display: block;
 						@media #{$sm} {
-							left: 10px;
+							// left: 10px;
 						}
 						@media #{$xs} {
 							width: calc( 100% + 24px );
