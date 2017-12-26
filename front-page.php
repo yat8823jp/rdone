@@ -142,7 +142,7 @@
 										<?php endif; ?>
 										<?php
 											if ( has_post_thumbnail() ) :
-												the_post_thumbnail();
+												the_post_thumbnail( 'img320' );
 											else :
 												?>
 												<img src="<?php echo COMMON_PFIX; ?>/img/post/noimage.jpg" alt="">
