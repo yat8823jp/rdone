@@ -882,7 +882,7 @@
 					border: 6px solid transparent;
 					border-top: 6px solid #444;
 					display: inline-block;
-					top: 9px;
+					top: 15px;
 					right: 8px;
 					position: absolute;
 					z-index: 2;
@@ -1039,8 +1039,16 @@
 				}//@media #{$xs}
 
 				li {
-					margin-bottom: 5px;
-					list-style-type: disc;
+					margin-bottom: 10px;
+					text-indent: -6px;
+					padding-left: 6px;
+					list-style-type: none;
+					position: relative;
+					&::before {
+						content: "-";
+						margin-right: 5px;
+						display: inline-block;
+					}
 				}
 			}
 		}//dd
