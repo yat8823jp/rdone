@@ -43,7 +43,7 @@
 				<dd>WordPressのダッシュボードにpdfを表示させる公式ディレクトリ掲載プラグイン。ファイルのアップロードは管理画面から可能。</dd>
 			</dl>
 
-		</div><!--/right-->
+		</div><!--/right-->cd
 	</div><!--/l-img-r-content-->
 	</section><!--/.sec2-->
 
@@ -55,7 +55,7 @@
 			<table class="price-table">
 				<tbody>
 					<tr>
-						<td colspan="3" class="price-headline" data-price="title"><h4>PC用サイト・スマートフォンサイト</h4></td>
+					<td colspan="3" class="price-headline" data-price="title"><h3>PC用サイト・スマートフォンサイト</h3></td>
 					</tr>
 					<tr>
 						<td data-price="subtitle">デザイン</td>
@@ -65,6 +65,11 @@
 					<tr>
 						<td></td>
 						<td data-price="item">下層ページ（1P）</td>
+						<td data-price="price">30,000円〜</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td data-price="item">テンプレートページ</td>
 						<td data-price="price">30,000円〜</td>
 					</tr>
 					<tr>
@@ -92,6 +97,11 @@
 						<td data-price="item">ランディングページ</td>
 						<td data-price="price">100,000円〜</td>
 					</tr>
+					<tr>
+						<td data-price="subtitle">WordPress実装</td>
+						<td data-price="item">（コーディングは含みません）</td>
+						<td data-price="price">200,000円〜</td>
+					</tr>
 				</tbody>
 			</table>
 
@@ -99,12 +109,12 @@
 			<table class="price-table">
 				<tbody>
 					<tr>
-						<td colspan="3" class="price-headline" data-price="title"><h4>印刷物等</h4></td>
+						<td colspan="3" class="price-headline" data-price="title"><h3>印刷物等</h3></td>
 					</tr>
 					<tr>
 						<td data-price="subtitle">ロゴデザイン</td>
 						<td></td>
-						<td data-price="price">150,000円〜</td>
+					<td data-price="price">150,000円〜</td>
 					</tr>
 					<tr>
 						<td data-price="subtitle">名刺デザイン</td>
