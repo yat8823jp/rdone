@@ -43,7 +43,7 @@
 				<dd>WordPressのダッシュボードにpdfを表示させる公式ディレクトリ掲載プラグイン。ファイルのアップロードは管理画面から可能。</dd>
 			</dl>
 
-		</div><!--/right-->cd
+		</div><!--/right-->
 	</div><!--/l-img-r-content-->
 	</section><!--/.sec2-->
 
