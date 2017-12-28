@@ -310,6 +310,11 @@
 
 			.sec2-ttl,dt{ font-weight: bold; }
 			.sec2-ttl{ margin-top: 30px; font-size: 1.6rem; line-height: 1.6; }
+
+			.sec2-right-ttl {
+				font-size: weight;
+			}
+
 			dl {
 				margin-top: 20px;
 				@media #{$xs} {
