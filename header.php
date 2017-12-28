@@ -56,6 +56,6 @@
 <body id="pagetop" <?php body_class( 'index' ); ?>>
 	<article class="wrap">
 		<header class="sec1" id="sec1">
-			<h1 class="logo"><img src="<?php echo COMMON_PFIX; ?>/img/rish-design-logo1.png" alt="Rish-Design" width="" height="" class="logo-img"></h1>
+			<h1 class="logo"><img src="<?php echo COMMON_PFIX; ?>/img/rish-design-logo1.png" alt="Rish-Design" width="" height="" class="logo-img is-responsive"></h1>
 			<div class="top-arrow-bottom"><a href="#sec2"><img src="<?php echo COMMON_PFIX; ?>/img/top_arrow_bottom.png" alt="↓"></a></div>
 		</header><!--/.sec1-->

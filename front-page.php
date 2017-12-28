@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="sec2" id="sec2">
-	<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec2_headline.png" alt="About" class="headline-logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_about.png"></h2>
+	<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec2_headline.png" alt="About" class="headline-logo is-responsive" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_about.png"></h2>
 	<div class="l-img-r-content content">
 		<div class="left">
 			<img src="<?php echo COMMON_PFIX; ?>/img/photo.jpg" alt="photo" class="photo">
@@ -48,7 +48,7 @@
 	</section><!--/.sec2-->
 
 	<section class="sec3" id="sec3">
-		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec3_headline.png" alt="Pricelist" width="752" height="" class="headline-logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_pricelist.png"></h2>
+		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec3_headline.png" alt="Pricelist" width="752" height="" class="headline-logo is-responsive" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_pricelist.png"></h2>
 		<div class="content">
 			<p class="sec-copy">基本的な料金は下記となります。ご不明な点、こちらで該当しない点等、ご相談がありましたら、お気軽にお問い合わせください。</p>
 			<h3 class="sec3-ttl" data-price="headline">Webデザイン・ホームページ作成</h3>
@@ -131,7 +131,7 @@
 		</div><!--/content-->
 	</section><!--/.sec3-->
 	<section class="sec4" id="sec4">
-		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec4_headline.png" alt="Portfolio" width="752" height="" class="headline-logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_portfolio.png"></h2>
+		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec4_headline.png" alt="Portfolio" width="752" height="" class="headline-logo is-responsive" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_portfolio.png"></h2>
 		<div class="content">
 			<p class="sec-copy">過去の制作実績です</p>
 			<?php
@@ -210,7 +210,7 @@
 		?>
 	</section><!--/.sec4-->
 	<section class="sec5" id="sec5">
-		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec5_headline.png" alt="contact" class="headline-logo" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_contact.png"></h2>
+		<h2 class="headline"><img src="<?php echo COMMON_PFIX; ?>/img/sec5_headline.png" alt="contact" class="headline-logo is-responsive" data-sp-img="<?php echo COMMON_PFIX; ?>/img/sp_contact.png"></h2>
 		<div class="check-form-slide">
 			<div class="content">
 				<p class="sec-copy">デザイン、ホームページ制作等お仕事のご相談など、お気軽にお問い合わせください。 <span class="attention">（* は必須項目です）</span></p>
