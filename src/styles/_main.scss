@@ -624,7 +624,7 @@
 					margin: auto;
 				}
 				.portfolio-frame {
-					margin: 48px 0;
+					margin: 48px 0 48px 10px;
 					position: relative;
 					display: block;
 					@media #{$xs} {
@@ -645,8 +645,8 @@
 						@media #{$xs} {
 							width: calc( 100% + 48px );
 							height: calc( 100% + 80px );
-							top: -40px;
-							left: calc( 50% - 200px );
+							top: -50px;
+							left: calc( 50% - 210px );
 						}
 						@media #{$sm} {
 						}
@@ -728,11 +728,14 @@
 					}
 					img {
 						max-width: 180px;
-						max-height: 240px;
+						// max-height: 175px;
 						width: 180px;
 						height: auto;
 						margin: auto;
 						overflow-y: hidden;
+						@media #{$md} {
+							max-height: 240px;
+						}
 					}
 					@media #{$xs} {
 						width: 140px;
