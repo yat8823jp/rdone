@@ -713,27 +713,36 @@
 						background-size: contain;
 						position: absolute;
 						top: -14px;
-						left: 42px;
+						left: 45px;
 						z-index: 2;
 						display: block;
-						@media #{$sm} {
-							// left: 10px;
-						}
 						@media #{$xs} {
 							width: calc( 100% + 24px );
 							height: calc( 100% + 24px );
 							top: -14px;
 							left: -10px;
 						}
+						@media #{$sm} {
+							// left: 62px;
+						}
+						@media #{$md} {
+						}
 					}
 					img {
 						max-width: 180px;
 						max-height: 175px;
-						width: 180px;
 						height: auto;
 						margin: auto;
 						overflow-y: hidden;
+						@media #{$xs} {
+						}
+						@media #{$sm} {
+							max-height: 240px;
+						}
 						@media #{$md} {
+							max-height: 240px;
+						}
+						@media #{$lg} {
 							max-height: 240px;
 						}
 					}
