@@ -737,13 +737,16 @@
 						@media #{$xs} {
 						}
 						@media #{$sm} {
-							// max-height: 240px;
+							max-height: 240px;
+							overflow-y: hidden;
 						}
 						@media #{$md} {
 							max-height: 240px;
+							overflow-y: hidden;
 						}
 						@media #{$lg} {
 							max-height: 240px;
+							overflow-y: hidden;
 						}
 					}
 					@media #{$sm} {
