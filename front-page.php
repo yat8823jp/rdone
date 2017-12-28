@@ -11,23 +11,38 @@
 		</div><!--/.left-->
 		<div class="right">
 			<p class="sec-text">WebデザイナーのYATといいます（ブログはこちら<a href="http://wp.yat-net.com/" target="_blank">YATのblog</a>）。ECの運用を中心に、デザイン、コーディング、サーバー関係、プログラミング、SEO、マーケティング等を仕事で携わってきました。<br>
-				2015年6月29日より個人事業として独立し、大阪府八尾市にて、フリーランスのWebクリエイターとして活動しています。<br>
-				これまでの経験を活かし、ホームページを作って終わるのではなく、作ったサイトをどのように活用し、どのように目的を達成していくのかまで一緒に考えることができますので、今あるホームページをどうやって運用すればいいのか？といったお悩みをお抱えのサイトオーナー様からも、お気軽にご相談いただければと思います。
-			</p>
-			<h3 class="sec2-ttl">業務内容</h3>
-			<dl>
+			2015年6月29日より個人事業として独立し、大阪府八尾市にて、フリーランスのWebクリエイターとして活動しています。<br>
+			これまでの経験を活かし、ホームページを作って終わるのではなく、作ったサイトをどのように活用し、どのように目的を達成していくのかまで一緒に考えることができますので、今あるホームページをどうやって運用すればいいのか？といったお悩みをお抱えのサイトオーナー様からも、お気軽にご相談いただければと思います。</p>
+
+			<h2 class="u-mb20">業務内容</h2>
+
+			<dl class="u-mb20 u-ml20">
 				<dt>Webサイト制作</dt>
 				<dd>Webデザイン / </dd>
 				<dd>コーディング / </dd>
 				<dd>CMS構築 / </dd>
 				<dd>サイト運用補佐 等</dd>
 			</dl>
-			<dl>
+
+			<dl class="u-ml20">
 				<dt>デザイン全般</dt>
 				<dd>ロゴデザイン / </dd>
 				<dd>名刺デザイン / </dd>
 				<dd>チラシ作成 等</dd>
 			</dl>
+
+			<h2 class="u-mb20">オープンソースへの貢献</h2>
+			<p class="sec-text u-ml20">オープンソースプロジェクトに関わり、ドキュメントの翻訳やWordPressのプラグイン、テーマ開発、開発環境の公開などを行っています。</p>
+
+			<dl class="u-ml20">
+				<dt class="u-mb20"><a href="https://github.com/yat8823jp/speedy" target="_blank">Speedy</a></dt>
+				<dd>Gulpによる静的サイトの開発環境。htmlの記述にpugを採用</dd>
+				<dt class="u-mb20"><a href="https://github.com/yat8823jp/spycejs" target="_blank">Spycejs</a></dt>
+				<dd>Gulpによる静的サイトの開発環境。htmlの記述にejsを採用</dd>
+				<dt class="u-mb20"><a href="https://ja.wordpress.org/plugins/rd-dashboard-pdf/" target="_blank">RD Dashboard pdf</a></dt>
+				<dd>WordPressのダッシュボードにpdfを表示させる公式ディレクトリ掲載プラグイン。ファイルのアップロードは管理画面から可能。</dd>
+			</dl>
+
 		</div><!--/right-->
 	</div><!--/l-img-r-content-->
 	</section><!--/.sec2-->
