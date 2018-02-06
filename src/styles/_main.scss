@@ -882,18 +882,6 @@
 			}
 			.type-select-label {
 				position: relative;
-				&::after {
-					content: "";
-					width: 0;
-					height: 0;
-					border: 6px solid transparent;
-					border-top: 6px solid #444;
-					display: inline-block;
-					top: 15px;
-					right: 8px;
-					position: absolute;
-					z-index: 2;
-				}
 			}
 			select.type-select {
 				padding: 5px 0 8px;
