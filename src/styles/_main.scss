@@ -118,7 +118,7 @@
 	top: 0;
 	background: url(img/sec1_bg.png) 50% 0 fixed;
 	position: relative;
-	display: block;
+	// display: block;
 	z-index: 0;
 
 	@media #{$xs} {
@@ -149,20 +149,22 @@
 	}
 
 	.logo {
+		width: 336px;
+		height: 198px;
 		top: 50%;
 		left: 50%;
-		margin: -96px auto auto -168px;
+		margin: -192px auto auto -168px;
 		position: absolute;
 		z-index: 3;
 
 		@media #{$xs} {
-			img{ width: (336/2)+px; }
-			margin: (-198/4)+px auto auto (-336/4)+px;
+			svg{ width: (336/2)+px; }
+			margin: (-198/2)+px auto auto (-336/4)+px;
 		}//@media #{$xs}
 
 		@media #{$xs-l} {
-			img{ width: (336/2)+px; }
-			margin: (-198/4)+px auto auto (-336/4)+px;
+			svg{ width: (336/2)+px; }
+			margin: (-198/2)+px auto auto (-336/4)+px;
 		}//@media #{$xs}
 		&--404  {
 			@extend .logo;
