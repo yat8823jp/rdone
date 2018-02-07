@@ -154,17 +154,18 @@
 		top: 50%;
 		left: 50%;
 		margin: -192px auto auto -168px;
+		// margin: -97px auto auto -84px;
 		position: absolute;
 		z-index: 3;
-
 		@media #{$xs} {
-			svg{ width: (336/2)+px; }
-			margin: (-198/2)+px auto auto (-336/4)+px;
+			svg{ width: 336px; }
+			margin: -168px auto auto -168px;
 		}//@media #{$xs}
 
 		@media #{$xs-l} {
 			svg{ width: (336/2)+px; }
-			margin: (-198/2)+px auto auto (-336/4)+px;
+			// margin: (-198/2)+px auto auto (-336/4)+px;
+			margin: -168px auto auto -168px;
 		}//@media #{$xs}
 		&--404  {
 			@extend .logo;
