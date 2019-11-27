@@ -7,9 +7,7 @@ export default  {
 	 */
 	browserSync: {
 	//	 proxy: 'localhost:3000',
-	//	proxy: 'http://hsa.localhost/', //自身のローカル環境に合わせて書き換えてください。
-	// proxy: 'http://localhost/hsa-wp/',
-	proxy: 'rish-design.dev',
+	proxy: 'rish-design.wp',
 		files: [
 			"./style.css",
 			"./js/bundle.js",

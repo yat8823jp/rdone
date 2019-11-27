@@ -846,14 +846,21 @@
 
 	dl.form-block {
 
-		display: inline-block;
-
+		// display: inline-block;
+		display: flex;
+		flex-wrap: wrap;
+		@media #{$xs} {
+			display: inline-block;
+		}
 		dt {
-			width: 180px;
+			// width: 180px;
+			width: calc( 35% - 20px );
 			text-align: right;
 			margin: 0 20px 30px auto;
-			float: left;
-			clear: left;
+			// float: left;
+			// clear: left;
+			vertical-align: middle;
+			box-sizing: border-box;
 			@media #{$xs} {
 				width: 100%;
 				margin-bottom: 10px;
@@ -862,14 +869,17 @@
 		}//dt
 
 		dd {
-			width: 380px;
+			// width: 380px;
+			width: 65%;
 			margin: 0 0 30px 0;
 			text-align: left;
 			word-break:break-all;
-			float: left;
-				@media #{$xs} {
-					width: 100%;
-				}//@media #{$xs}
+			// float: left;
+			vertical-align: middle;
+			box-sizing: border-box;
+			@media #{$xs} {
+				width: 100%;
+			}//@media #{$xs}
 
 			input,
 			select,
@@ -877,6 +887,7 @@
 				width: 380px;
 				padding: 5px;
 				box-sizing: border-box;
+				font-size: 1.4rem;
 				@media #{$xs} {
 					width: 100%;
 				}//@media #{$xs}
@@ -897,6 +908,19 @@
 		}
 
 	}//dl.form-block
+	.captcha {
+		margin-bottom: 30px;
+		line-height: 2.0;
+		@media #{$xs} {
+		}
+		> input {
+			width: 40%;
+			padding: 5px;
+			@media #{$xs} {
+				width: 50%;
+			}
+		}
+	}
 
 	.contact-form {
 		margin: 60px auto auto auto;
@@ -927,16 +951,16 @@
 	}//.submit-bt
 
 	.set-bt  {
-    width: 280px;
-    margin: auto;
+		// width: 280px;
+		margin: auto;
 		@media #{$sm}  {
-			width: 960px;
+			// width: 960px;
 		}
 		@media #{$md}  {
-			width: 960px;
+			// width: 960px;
 		}
 		@media #{$lg}  {
-			width: 960px;
+			// width: 960px;
 		}
 	}
 
