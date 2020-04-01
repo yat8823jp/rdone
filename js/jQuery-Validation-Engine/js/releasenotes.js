@@ -86,7 +86,7 @@
 						if(resp.data) resp= resp.data;
 				 		_this.showIssues(resp);
 				 	});
-				 	
+
 				});
 			},
 			loadComments : function(el){
@@ -99,7 +99,7 @@
 					id:issueid,
 					action:"comments"
 				});
-				
+
 				this.callApi(options).success(function(resp, textStatus, jqXHR){
 					if(resp.data) resp= resp.data;
 			 		_this.showComments(resp, issueid);
@@ -179,9 +179,9 @@
 					dataType:respType,
 					data:myoption
 				});
-			}, 
+			},
 			urls : {
-				domainName : "https://api.github.com",
+				domainName : "//api.github.com",
 				milestones : function(){
 					if(!settings.phpApi){
 						return $url = this.domainName+ "/repos/"+settings.username +"/"+ settings.repo +"/milestones";

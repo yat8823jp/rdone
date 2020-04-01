@@ -1,5 +1,5 @@
 /**
- * marked - A markdown parser (https://github.com/chjj/marked)
+ * marked - A markdown parser (//github.com/chjj/marked)
  * Copyright (c) 2011-2012, Christopher Jeffrey. (MIT Licensed)
  */
 
@@ -338,8 +338,8 @@ inline.pedantic = {
 };
 
 inline.gfm = {
-  url: /^(https?:\/\/[^\s]+[^.,:;"')\]\s])/,
-  text: /^[^\0]+?(?=[\\<!\[_*`]|https?:\/\/| {2,}\n|$)/
+  url: /^(?:\/\/[^\s]+[^.,:;"')\]\s])/,
+  text: /^[^\0]+?(?=[\\<!\[_*`]|?:\/\/| {2,}\n|$)/
 };
 
 /**

@@ -2,10 +2,10 @@
  * Inline Form Validation Engine 2.6.2, jQuery plugin
  *
  * Copyright(c) 2010, Cedric Dugas
- * http://www.position-absolute.com
+ * //www.position-absolute.com
  *
  * 2.0 Rewrite by Olivier Refalo
- * http://www.crionics.com
+ * //www.crionics.com
  *
  * Form validation engine allowing custom regex rules to be added.
  * Licensed under the MIT License
@@ -136,13 +136,13 @@
 		                var form = element.closest('form, .validationEngineContainer');
 		                options = (form.data('jqv')) ? form.data('jqv') : $.validationEngine.defaults;
 		                valid = methods._validateField(element, options);
-		
+
 		                if (valid && options.onFieldSuccess)
 		                    options.onFieldSuccess();
 		                else if (options.onFieldFailure && options.InvalidFields.length > 0) {
 		                    options.onFieldFailure();
 		                }
-		
+
 		                return !valid;
 			}
 			if(options.onValidationComplete) {
@@ -225,11 +225,11 @@
 		 /**
 		 * Closes all error prompts on the page
 		 */
-		 hideAll: function() {             
+		 hideAll: function() {
 			 var form = this;
 			 var options = form.data('jqv');
 			 var duration = options ? options.fadeDuration:300;
-			 $('.formError').fadeTo(duration, 0, function() {                 
+			 $('.formError').fadeTo(duration, 0, function() {
 				 $(this).closest('.formError').remove();
 			 });
 			 return this;
@@ -1751,7 +1751,7 @@
                     "opacity": 0,
                     "display": "block"
                 });
-                
+
 				if (noAnimation)
 					prompt.css(css);
 				else
@@ -1966,7 +1966,7 @@
 					  },
 		/**
 		 * Escape special character for jQuery selector
-		 * http://totaldev.com/content/escaping-characters-get-valid-jquery-id
+		 * //totaldev.com/content/escaping-characters-get-valid-jquery-id
 		 * @param {String} selector
 		 */
 		 _jqSelector: function(str){
@@ -2067,7 +2067,7 @@
 		ajaxFormValidation: false,
 		// The url to send the submit ajax validation (default to action)
 		ajaxFormValidationURL: false,
-		// HTTP method used for ajax validation
+		//  method used for ajax validation
 		ajaxFormValidationMethod: 'get',
 		// Ajax form validation callback method: boolean onComplete(form, status, errors, options)
 		// retuns false if the form.submit event needs to be canceled.

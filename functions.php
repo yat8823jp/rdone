@@ -113,7 +113,7 @@ add_filter( 'image_resize_dimensions', 'cropTopLeft', 10, 6 );
 //====================================================================================
 function my_post_header( $headers ) {
 	if ( !is_admin() ) {
-		header( "Access-Control-Allow-Origin: 'https://fonts.googleapis.com', 'https://fonts.gstatic.com/', 'http://maps.google.com'" );
+		header( "Access-Control-Allow-Origin: '//fonts.googleapis.com', '//fonts.gstatic.com/', '//maps.google.com'" );
 	}
 }
 

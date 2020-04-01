@@ -5,12 +5,12 @@
 		<div class="left">
 			<img src="<?php echo COMMON_PFIX; ?>/img/photo.jpg" alt="photo" class="photo">
 			<ul class="sns-ico">
-				<li class="ico-twitter"><a href="https://twitter.com/yat8823jp"><img src="<?php echo COMMON_PFIX; ?>/img/ico_twitter.png" width="29" height="24" alt="twitter"></a></li>
-				<li class="ico-facebook"><a href="https://www.facebook.com/yat8823jp"><img src="<?php echo COMMON_PFIX; ?>/img/ico_facebook.png" width="25" height="25" alt="facebook"></a></li>
+				<li class="ico-twitter"><a href="//twitter.com/yat8823jp"><img src="<?php echo COMMON_PFIX; ?>/img/ico_twitter.png" width="29" height="24" alt="twitter"></a></li>
+				<li class="ico-facebook"><a href="//www.facebook.com/yat8823jp"><img src="<?php echo COMMON_PFIX; ?>/img/ico_facebook.png" width="25" height="25" alt="facebook"></a></li>
 			</ul>
 		</div><!--/.left-->
 		<div class="right">
-			<p class="sec-text">WebデザイナーのYATといいます（ブログはこちら<a href="http://wp.yat-net.com/" target="_blank">YATのblog</a>）。ECの運用を中心に、デザイン、コーディング、サーバー関係、プログラミング、SEO、マーケティング等を仕事で携わってきました。<br>
+			<p class="sec-text">WebデザイナーのYATといいます（ブログはこちら<a href="//wp.yat-net.com/" target="_blank">YATのblog</a>）。ECの運用を中心に、デザイン、コーディング、サーバー関係、プログラミング、SEO、マーケティング等を仕事で携わってきました。<br>
 			2015年6月29日より個人事業として独立し、大阪府八尾市にて、フリーランスのWebクリエイターとして活動しています。<br>
 			これまでの経験を活かし、ホームページを作って終わるのではなく、作ったサイトをどのように活用し、どのように目的を達成していくのかまで一緒に考えることができますので、今あるホームページをどうやって運用すればいいのか？といったお悩みをお抱えのサイトオーナー様からも、お気軽にご相談いただければと思います。</p>
 
@@ -35,11 +35,11 @@
 			<p class="sec-text u-ml20">オープンソースプロジェクトに関わり、ドキュメントの翻訳やWordPressのプラグイン、テーマ開発、開発環境の公開などを行っています。</p>
 
 			<dl class="u-ml20">
-				<dt class="u-mb20"><a href="https://github.com/yat8823jp/speedy" target="_blank">Speedy</a></dt>
+				<dt class="u-mb20"><a href="//github.com/yat8823jp/speedy" target="_blank">Speedy</a></dt>
 				<dd>Gulpによる静的サイトの開発環境。htmlの記述にpugを採用</dd>
-				<dt class="u-mb20"><a href="https://github.com/yat8823jp/spycejs" target="_blank">Spycejs</a></dt>
+				<dt class="u-mb20"><a href="//github.com/yat8823jp/spycejs" target="_blank">Spycejs</a></dt>
 				<dd>Gulpによる静的サイトの開発環境。htmlの記述にejsを採用</dd>
-				<dt class="u-mb20"><a href="https://ja.wordpress.org/plugins/rd-dashboard-pdf/" target="_blank">RD Dashboard pdf</a></dt>
+				<dt class="u-mb20"><a href="//ja.wordpress.org/plugins/rd-dashboard-pdf/" target="_blank">RD Dashboard pdf</a></dt>
 				<dd>WordPressのダッシュボードにpdfを表示させる公式ディレクトリ掲載プラグイン。ファイルのアップロードは管理画面から可能。</dd>
 			</dl>
 
