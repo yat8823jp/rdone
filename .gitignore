@@ -1,3 +1,4 @@
 .sass-cashe/
 node_modules/
 img_org/
+package-lock.json
